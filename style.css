@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#color-picker{
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+#weight-slider{
+    position: fixed;
+    right: -95px;
+    bottom: 70px;
+    width: 150px;
+    height: 20px;
+    margin: 0;
+    transform-origin:0 0;
+    transform:  rotate(-90deg);
+}
